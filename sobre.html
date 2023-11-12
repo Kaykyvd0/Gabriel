@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" type="ima/x-icon" href="ima/icone.jpg">
+    <title>Biografia Gabriel</title>
+    <style>
+        body {
+            padding-top: 56px; /* Ajuste para compensar a altura da barra de navegação fixa */
+        }
+
+        .profile-img {
+            max-width: 100%; /* Alterado para 100% para preencher a largura da coluna */
+            height: auto;
+        }
+
+        .carousel-inner img {
+            width: 100%; /* Garante que as imagens do carrossel ocupem 100% da largura da div */
+            height: auto; /* Mantém a proporção original da imagem */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Biografia Gabriel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html"><i class="fa-solid fa-info"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feitos.html"><i class="fa-solid fa-trophy"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="alert alert-danger d-flex align-items-center justify-content-between" role="alert">
+            <p class="mb-0">Este site foi feito em 12/11/2023, então pode conter informações desatualizadas.</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <h4 class="mb-4" style="text-align: center;">Biografia de Gabriel: Uma Jornada de Conquistas, Amizades e Paixões:</h4>
+
+        <p> Gabriel Almeida, nascido em 15 de fevereiro de 2007, é um jovem apaixonado pela vida e pela busca constante
+            do conhecimento. Sua jornada começou na Escolinha do EI9, onde os primeiros passos rumo ao saber foram
+            dados.</p>
+
+        <p> Os primeiros capítulos de sua vida acadêmica foram escritos na Escola João Machado, onde a curiosidade de
+            Gabriel floresceu e os alicerces de sua aprendizagem foram firmemente estabelecidos. Ao embarcar no Ensino
+            Fundamental II, uma nova página se abriu na Escola Arquimínio, e a jornada do 6º ao 9º ano tornou-se
+            fascinante.</p>
+
+        <p> A saga educacional de Gabriel ganhou novos contornos no Ensino Médio, com o cenário vibrante do Runbes.
+            Atualmente, Gabriel explora os desafios do 1º e 2º ano, imergindo-se na fascinante disciplina da Química.
+            Sua dedicação aos estudos não se limita ao idioma nativo; Gabriel é fluente em inglês, abrindo portas para
+            conexões globais e oportunidades ilimitadas.</p>
+
+        <p> O aprendizado de Gabriel transcende as salas de aula, incorporando uma paixão peculiar por jogos que o elevam
+            para além do ordinário. Nos reinos virtuais, ele se destaca em Fortnite, Valorant e Rocket League,
+            conquistando seu lugar entre os melhores jogadores do mundo.</p>
+
+        <!-- Nova coluna para a foto da namorada -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="ima/ray.jpg" class="img-fluid rounded profile-img" alt="Foto de Rayssa" style="width: 500px; height: 400px;">
+            </div>
+            <div class="col-md-6">
+                <p> No entanto, a vida de Gabriel é mais do que conquistas acadêmicas e digitais; é uma sinfonia de
+                    amizades. Kayky, Marechal, Daudt, Otávio Vulto Filhotito e uma constelação de outros amigos tornam a
+                    jornada de Gabriel mais rica e colorida. No coração dessa constelação está Rayssa, sua namorada, a
+                    musa que ilumina seu caminho e inspira o amor profundo que ele carrega consigo.</p>
+
+                <p> Rayssa, a musa de Gabriel, é uma presença constante e inspiradora em sua vida. Sua relação é um reflexo
+                    do amor profundo e da parceria que eles compartilham. Juntos, enfrentam os desafios e celebram as
+                    alegrias da jornada.</p>
+
+                <p> Assim, a vida de Gabriel é uma epopeia, uma história de superações, aprendizado e, acima de tudo,
+                    relações humanas que formam o tapete mágico de sua jornada. Que cada página futura seja escrita com
+                    as tintas vibrantes de suas paixões e as pinceladas suaves das pessoas que o acompanham.</p>
+            </div>
+        </div>
+
+        <section class="mt-5">
+            <h4 class="mb-4" style="text-align: center;">Algumas Fotos de Gabriel com seus amigos</h4>
+        </section>
+
+       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="max-width: 400px; margin: auto;">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="ima/foto1.jpg" class="d-block w-100" alt="Foto 1" style="width: 100%; height: auto;">
+        </div>
+        <div class="carousel-item">
+            <img src="ima/foto2.jpg" class="d-block w-100" alt="Foto 2" style="width: 100%; height: auto;">
+        </div>
+        <div class="carousel-item">
+            <img src="ima/foto3.jpg" class="d-block w-100" alt="Foto 3" style="width: 100%; height: auto;">
+        </div>
+		<div class="carousel-item">
+            <img src="ima/foto5.jpg" class="d-block w-100" alt="Foto 3" style="width: 100%; height: auto;">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
